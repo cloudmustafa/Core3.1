@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LpvyrWk0s+MSmDD0CCaNrpwqDpX7S07l2UmSTq5z14XBPNdehdICQ0iYZ5jlNYFhP23hZDE6tf9+2dGzqHVZ9A==",
+  "success": true,
+  "projectFilePath": "/Users/cloudmustafa/Projects/Dot-Net-Core/Core31API/Core31API/Core31API.csproj",
+  "expectedPackageFiles": [
+    "/Users/cloudmustafa/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

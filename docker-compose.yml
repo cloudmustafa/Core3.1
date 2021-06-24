@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  core31api:
+    image: ${DOCKER_REGISTRY-}core31api
+    build:
+      context: .
+      dockerfile: ./Dockerfile

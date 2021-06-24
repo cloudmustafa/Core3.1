@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{ED6D2DC8-E450-4C60-891F-72EBF7281D3F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dockerfile">
+    <Files>
+      <File FileName="Dockerfile" Line="13" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Core31API" expanded="True">
+            <Node name="Core31API" expanded="True">
+              <Node name="Dockerfile" selected="True" />
+            </Node>
+            <Node name="docker-compose" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Core31API FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
