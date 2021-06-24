@@ -37,6 +37,7 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
+    
     - task: CopyFiles@2
       inputs:
         Contents: '**'
