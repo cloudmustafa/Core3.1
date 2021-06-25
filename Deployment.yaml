@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: core 
-        image: demoacram.azurecr.io/myangular:v1
+        image: demoacrcoream.azurecr.io/dotnetcore:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
