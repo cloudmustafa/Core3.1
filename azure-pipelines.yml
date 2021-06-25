@@ -37,12 +37,9 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-    - task: DotNetCoreCLI@2
-      inputs:
-        command: 'build'
     - task: CopyFiles@2
       inputs:
-        Contents: '**'
+        Contents: 'Deployment.yaml'
         TargetFolder: '$(Build.ArtifactStagingDirectory)'
     - task: PublishBuildArtifacts@1
       inputs:
