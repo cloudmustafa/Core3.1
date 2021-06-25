@@ -28,7 +28,12 @@ stages:
     pool:
       vmImage: $(vmImageName)
     steps:
-
+    - task: Docker@2
+      inputs:
+        containerRegistry: 'DotNetCoreACR'
+        repository: 'DotNetCore'
+        command: 'buildAndPush'
+        Dockerfile: '**/Dockerfile'
     - task: CopyFiles@2
       inputs:
         Contents: 'Deployment.yaml'
